@@ -28,11 +28,6 @@ const start = async (port) => {
     app.get('/main', (req, res) => req.app.render(req, res, '/', {
         routeParam: req.params.routeParam
     }));
-    app.get('/app/:id', (req, res) => {
-      const actualPage = '/menu'
-      const queryParams = { title: req.params.id, id: req.params.id}
-      req.app.render(req, res, actualPage, queryParams)
-    })
 
     app.listen(port);
 };

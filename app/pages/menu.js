@@ -9,22 +9,22 @@ import TeachingPro from '../containers/TeachingPro'
 
 function renderPage(props) {
   switch (props.router.query.id) {
-    case 'play-buddies':
+    case 'menu-one':
       return <PlayWithBuddies />
       break;
-    case 'golf-club':
+    case 'menu-two':
       return <MyGolfClub />
       break;
-    case 'play-tournament':
+    case 'menu-three':
       return <PlayTournaments />
       break;
-    case 'organize-tournament':
+    case 'menu-four':
       return <OrganizeTournament />
       break;
-    case 'organize-kids':
+    case 'menu-five':
       return <OrganizeKids />
       break;
-    case 'teaching-pro':
+    case 'menu-six':
       return <TeachingPro />
       break;
     default:

@@ -14,7 +14,14 @@ module.exports = (async server => {
         n();
     });
 
+    server.get('/app/:id', (req, res) => {
+      const actualPage = '/menu'
+      const queryParams = { title: req.params.id, id: req.params.id}
+      app.render(req, res, actualPage, queryParams)
+    })
+
     server.get('*', (req, res) => {
+      console.log('URL', req.url)
       if (req.url.includes('/sw')) {
         const filePath = join(__dirname, 'app/static', 'workbox', 'sw.js');
         app.serveStatic(req, res, filePath);

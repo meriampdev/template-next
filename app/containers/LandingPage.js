@@ -13,12 +13,12 @@ class LandingPage extends React.Component {
   }
   render() {
     const tiles = [
-      { text: 'Play with buddies', path: 'play-buddies', icon: 'fa fa-user-friends' },
-      { text: 'My Golf Club', path: 'golf-club', icon: 'fa fa-golf-ball' },
-      { text: 'Play Tournaments', path: 'play-tournament', icon: 'fa fa-globe-americas' },
-      { text: 'Organize a Tournament', path: 'organize-tournament', icon: 'fa fa-sitemap' },
-      { text: 'Organize schedule for my kids', path: 'organize-kids', icon: 'fa fa-calendar-alt' },
-      { text: 'I am a Teaching Pro', path: 'teaching-pro', icon: 'fa fa-chalkboard-teacher' }
+      { text: 'Menu 1', path: 'menu-one', icon: 'fa fa-user-friends' },
+      { text: 'Menu 2', path: 'menu-two', icon: 'fa fa-golf-ball' },
+      { text: 'Menu 3', path: 'menu-three', icon: 'fa fa-globe-americas' },
+      { text: 'Menu 4', path: 'menu-four', icon: 'fa fa-sitemap' },
+      { text: 'Menu 5', path: 'menu-five', icon: 'fa fa-calendar-alt' },
+      { text: 'Menu 6', path: 'menu-six', icon: 'fa fa-chalkboard-teacher' }
     ]
     return <Grid>
       {
