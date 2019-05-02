@@ -1,0 +1,37 @@
+.landing-page-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-tile {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  box-shadow: 0 1px 24px rgba(0, 0, 0, 0.1), 1px 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.menu-tile:hover {
+  box-shadow: 0 1px 24px rgba(0, 0, 0, 0.1), 2px 2px 5px $app-color-theme;
+  cursor: pointer;
+}
+
+.menu-tile .tile-icon {
+  font-size: 60px;
+  border-bottom: 1px solid $app-color-theme;
+  width: 100%;
+  text-align: center;
+  color: $icon-color;
+}
+
+.menu-tile .tile-text {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 15px;
+}

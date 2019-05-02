@@ -1,0 +1,3 @@
+export const SAMPLE_ACTION = 'SAMPLE_ACTION'
+export const SUCCESS_AUTH = 'SUCCESS_AUTH'
+export const AUTH_LOG_OUT = 'AUTH_LOG_OUT'

@@ -1,0 +1,39 @@
+.layout-container {
+  // display: flex;
+  // flex-direction: column;
+  height: 100%;
+}
+
+.layout-top-bar {
+  // flex: 5% 0;
+  // min-height: 50px;
+  height: 50px;
+  background: $app-color-theme;
+  display: flex;
+  align-items: center;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  // align-items: center;
+}
+.top-left {
+  flex: 10% 0;
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.brand {
+  // flex: 80% 1;
+  display: flex;
+  align-items: center;
+  color: $icon-color !important;
+}
+.login-text {
+  color: $icon-color !important;
+  font-size: 40px;
+  font-weight: 600;
+}
+.layout-main-content {
+  flex: 95% 1;
+}
